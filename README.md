@@ -4,7 +4,7 @@ This application is a web based system that allows users to view weather data fo
 
 ### Adding Apis
 
-There are currently two Apis that can be called the process to add new Apis is as follows, this follows the Strategy pattern
+There are currently two Apis that can be called the process to add new Apis is as follows
 
 * Create a new class that implements the interface IWeatherStrategy (placed in the WeatherStructures folder)  
 * The gatherData implementation can call the its API directly or make use of the ProcessApi class if it is a Web based APIs
@@ -12,7 +12,7 @@ There are currently two Apis that can be called the process to add new Apis is a
 
 ### Adding new units
 
-Currently Wind and temperature have two units of measurement the following steps can be followed to add new units, this follows the factory pattern
+Currently Wind and temperature have two units of measurement the following steps can be followed to add new units
 
 * Add a new type in either the WindType or TempType Enums
 * Create a concrete class implementing IWind or ITemp
