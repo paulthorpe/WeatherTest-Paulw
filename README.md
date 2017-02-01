@@ -1,4 +1,4 @@
-# Weather Test Paul Wyatt
+# Weather Test 
 
 This application is a web based system that allows users to view weather data for specific locations on a map. The weather data is an aggregation of numerous Weather feeds. Hover over one of the Icons and wait to see the weather conditions for the location. You an also select the links to change to different locations
 
